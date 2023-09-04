@@ -1,0 +1,188 @@
+section {
+    cursor: url('./assets/cursor3.png'), auto;
+}
+
+.Resumen {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-top: 60px;
+}
+
+.Cap1 div,
+.Cap2 div,
+.Cap3 div,
+.Cap4 div,
+.Cap5 div,
+.Cap6 div,
+.Cap7 div {
+    margin: 20px 0;
+    max-width: 800px;
+}
+
+.Cap1,
+.Cap2,
+.Cap3,
+.Cap4,
+.Cap5,
+.Cap6,
+.Cap7 {
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.Cap7 {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 60px;
+}
+
+.Cap3,
+.Cap4,
+.Cap6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.edadmedia {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 880px;
+    top: 40px;
+}
+
+.kapitalista {
+    width: 260px;
+    height: auto;
+    position: absolute;
+    left: 850px;
+    top: 260px;
+}
+
+.carabelas {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 850px;
+    bottom: 230px;
+}
+
+.colon {
+    position: absolute;
+    left: 850px;
+    bottom: 60px;
+}
+
+.comercio {
+    align-self: center;
+    width: 750px;
+    height: auto;
+}
+
+.mercader {
+    position: absolute;
+    right: 850px;
+    top: 400px;
+}
+
+.soldado {
+    position: absolute;
+    left: 850px;
+    top: 400px;
+}
+
+.moneda {
+    position: absolute;
+    left: 850px;
+    top: 640px;
+}
+
+.tumba {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 880px;
+    top: 200px;
+}
+
+.divtriangkap {
+    width: 400px;
+}
+
+.triangkap {
+    align-self: center;
+    max-width: 500px;
+    height: auto;
+    position: absolute;
+    left: 420px;
+    top: 345px;
+    /* border: 1px solid black; */
+}
+
+.aranas {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    align-self: center;
+    max-width: 600px;
+    height: auto;
+}
+
+.patriotismo {
+    align-self: center;
+    max-width: 550px;
+    height: auto;
+}
+
+.sebusca {
+    position: absolute;
+    right: 930px;
+    top: -100px;
+}
+
+.comunaparis {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 830px;
+    top: 100px;
+}
+
+.africaL {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 850px;
+    top: 700px;
+}
+
+.africaR {
+    width: 290px;
+    height: auto;
+    position: absolute;
+    left: 850px;
+    top: 715px;
+}
+
+.expansioncom {
+    width: 380px;
+    height: auto;
+    position: absolute;
+    right: 840px;
+    top: 250px;
+}
+
+.zombie {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 850px;
+    top: 460px;
+}

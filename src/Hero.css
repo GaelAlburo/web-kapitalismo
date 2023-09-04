@@ -1,0 +1,64 @@
+header {
+    cursor: url('./assets/cursor3W.png'), auto;
+    background-color: #333;
+    color: #fff;
+}
+
+.left-options a:hover {
+    cursor: url('./assets/cursorHand.png'), auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+
+    /* Adjust padding as needed */
+}
+
+/* Style for the left options */
+.left-options ul {
+    list-style: none;
+}
+
+.left-options li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.left-options a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Style for the logo */
+.logo img {
+    max-width: 10%;
+    height: auto;
+    /* Maintain the aspect ratio of the logo */
+}
+
+.nombre {
+    border-left: 1px solid palevioletred;
+    padding-left: 25px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+}
+
+.hero {
+    height: 100vh;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1,
+h2 {
+    font-family: 'Arvo', serif;
+}

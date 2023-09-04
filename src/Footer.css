@@ -1,0 +1,45 @@
+footer {
+    height: 92vh;
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    cursor: url('./assets/cursor3W.png'), auto;
+    display: flex;
+    justify-content: center;
+}
+
+.opinion,
+.referencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.opinion h2,
+.referencias h2 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+.referencias div {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px
+}
+
+.referencias a {
+    color: palevioletred;
+}
+
+.opinion {
+    max-width: 950px;
+    margin-top: 50px;
+}
+
+.opinion div {
+    font-size: 1.12rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
