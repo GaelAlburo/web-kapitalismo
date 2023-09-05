@@ -10,19 +10,6 @@ export default function Hero() {
             easing: 'ease'
         })
     }, [])
-    const onMouseMove = event => {
-
-    }
-    function cursor() {
-
-        let magic = document.querySelector('.magic');
-        let magicWHalf = magic.offsetWidth / 2;
-
-        window.addEventListener('mousemove', function (e) {
-            magic.style.left = e.pageX - magicWHalf + 'px';
-            magic.style.top = e.pageY - magicWHalf + 'px';
-        });
-    }
 
     return (
         <header>

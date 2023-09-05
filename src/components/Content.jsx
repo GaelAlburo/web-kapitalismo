@@ -32,7 +32,7 @@ export default function Content() {
         <section className='Resumen' id='resumen'>
             <h2 data-aos="flip-down">La Edad Media</h2>
             <div className="Cap1">
-                <div data-aos="fade-up">El libro empieza colocandonos en la civilización de la Europa Central del siglo XV, en pleno periodo del feudalismo.
+                <div data-aos="fade-up">El libro empieza colocándonos en la civilización de la Europa Central del siglo XV, en pleno periodo del feudalismo.
                     En esta época, la sociedad estaba dividida en distintas clases sociales, siendo las principales los campesinos y artesanos
                     por un lado, y los curas y nobles por otro. Los curas y nobles eran dueños de tierras y requerían que los campesinos y artesanos
                     les pagaran impuestos en forma de productos. Si alguien se atrevía a protestar, los soldados amenazaban con violencia hasta que
@@ -84,7 +84,7 @@ export default function Content() {
                     se unieron con el objetivo de acabar con el poder de los terratenientes, esto dio lugar a conflictos y enfrentamientos
                     entre rateros de diferentes bandos. <br />
                     Para derrotar a los nobles, los mercaderes buscaron la ayuda del rey de Inglaterra, Enrique VIII. Con el pacto de que el rey obtendría dinero de
-                    los mercaderes a cambio de que estos no pagaran impuestos. Así, nació la "Economía Mixta", una unión entre el Estado y los capitalistas.
+                    los mercaderes a cambio de que estos no pagarán impuestos. Así, nació la "Economía Mixta", una unión entre el Estado y los capitalistas.
                 </div>
                 <img className='mercader' src={mercader} data-aos="fade" data-aos-duration="2000" />
                 <img className='soldado' src={soldado} data-aos="fade" data-aos-duration="2000" />
@@ -126,7 +126,7 @@ export default function Content() {
                 <div data-aos="fade-up">
                     Cuando el tráfico de esclavos llegó al Reino del Congo, el rey Alfonso prohibió a sus mercaderes vender a su gente a los europeos.
                     Pero estos estaban fascinados por las "cosas" que los europeos les daban a cambio por su gente. El rey Alfonso intentó detener el tráfico
-                    enviando una carta al rey de Portugal, pero la respuesta fue negativa. El resultado fue el rey Alfonso murió sin lograr detener el tráfico de su gente.
+                    enviando una carta al rey de Portugal, pero la respuesta fue negativa. El resultado fue que el rey Alfonso murió sin lograr detener el tráfico de su gente.
                 </div>
                 <h3 data-aos="fade-up">El Triangulo del Kapital</h3>
                 <div className='divtriangkap' data-aos="fade-up">
@@ -136,11 +136,11 @@ export default function Content() {
                 <img className='triangkap' src={triangkap} data-aos="fade-up" data-aos-duration="2000" />
                 <div data-aos="fade-up" className='divtriangkap'>
                     Para mediados del siglo XVIII, Inglaterra había alcanzado el control del comercio entre Europa y otros continentes con la financiación de piratas,
-                    y como es costumbre, declaraban de nobles a cualquier criminal que les ayude a hacer dinero
+                    y como es costumbre, declaraban de nobles a cualquier criminal que les ayude a hacer dinero.
                 </div>
                 <h3 data-aos="fade-up">La Revolución Inustrial</h3>
                 <div data-aos="fade-up">
-                    Debido a la cantidad de mercado, inglaterra necesitaba crear mas productos más rapido. Con lo que se crearon máquinas movidas por vapor.
+                    Debido a la cantidad de mercado, Inglaterra necesitaba crear más productos más rápido. Con lo que se crearon máquinas movidas por vapor.
                     Dando inicio a la creación de máquinas, inventos y la producción en masa en fábricas. <br />
                     Pero período también marcó la transición de los artesanos y campesinos a trabajadores de fábrica,
                     con largas jornadas laborales y condiciones de trabajo precarias. Los capitalistas, dueños de las fábricas,
@@ -155,7 +155,7 @@ export default function Content() {
                 <div data-aos="fade-up">
                     El desarrollo de la industrialización en Europa y los Estados Unidos generó una creciente competencia entre las potencias industriales.
                     Se produjo una sobreproducción de bienes, lo que llevaba a la creación de descuentos y ventas masivas para intentar vender los productos.
-                    Por esta intensa competencia condujo a una disminución en la cantidad de capitalistas!, ya que muchos no podían competir y quedaban en la bancarrota.
+                    Por esta intensa competencia condujo a una disminución en la cantidad de capitalistas, ya que muchos no podían competir y quedaban en la bancarrota.
                 </div>
                 <img className='sebusca' src={sebusca} data-aos="fade" data-aos-duration="2000" />
                 <div data-aos="fade-up">
@@ -181,8 +181,8 @@ export default function Content() {
                 </div>
                 <h3 data-aos="fade-up">La Civilización (genocidio) del África (y el mundo)</h3>
                 <div data-aos="fade-up">
-                    Barcos europeos cargados de soldados, armas, civilización y claro, religión cristiana, partieron hacia al África. A pesar de estar en clara
-                    desventaja tecnológica, las civilizaciones africanas resisitieron la invasión. Lmanetablemente, n tan solo 50 años todo el continente africano se había
+                    Barcos europeos cargados de soldados, armas, civilización y claro, religión cristiana, partieron hacia África. A pesar de estar en clara
+                    desventaja tecnológica, las civilizaciones africanas resistieron la invasión. Lamentablemente, en tan solo 50 años todo el continente africano se había
                     convertido en una colonia europea bien repartida entre Inglaterra, Francia, Portugal, España, Italia, Alemania y Bélgica.
                 </div>
                 <img className='africaL' src={africaL} data-aos="fade" data-aos-duration="2000" />
@@ -194,7 +194,7 @@ export default function Content() {
                     una <i>oportuna</i> excusa para que los capitalistas europeos enviaran tropas para proteger sus intereses.
                 </div>
                 <div data-aos="fade-up">
-                    Otra táctica para invair fue el crédito, como en la actualidad. Donde los capitalistas prestaban dinero a los reyes a cambio del control del país,
+                    Otra táctica para invadir fue el crédito, como en la actualidad. Donde los capitalistas prestaban dinero a los reyes a cambio del control del país,
                     como las aduanas o la policía. Estos préstamos tenían intereses extremadamente altos, lo que generaba deudas impagables. <i>Oportunamente</i>
                     generaban revueltas en los países, lo que llevaba nuevamente a la intervención de las tropas europeas para proteger los intereses capitalistas.
                 </div>
@@ -202,13 +202,13 @@ export default function Content() {
             <h2 data-aos="flip-down">El Imperialismo</h2>
             <div className="Cap6">
                 <div data-aos="fade-up">
-                    Como EE.UU. habia llegado tarde a la repartición de tierras, se inventaron una nueva forma de colonialismo: las invasiones extranjeras. Con la
+                    Como EE.UU. había llegado tarde a la repartición de tierras, se inventaron una nueva forma de colonialismo: las invasiones extranjeras. Con la
                     creación de la doctrina Monroe “América para los americanos” (<i>americanos = EE.UU.</i>), les sirvió para adueñarse de medio México, Cuba, Panamá,
-                    Hawái, Alaska y de paso meterse en los asuntos internos de todo el continente
+                    Hawái, Alaska y de paso meterse en los asuntos internos de todo el continente.
                 </div>
                 <div data-aos="fade-up">
                     Los capitalistas no se quedaban atrás en la nueva era. Un grupo de grandes kapitalistas (<i>arañas</i>) se juntaron para establecer un pacto
-                    de no agresión entre ellos. Formaron un cártel para no hacerse competencia, unieron sus compañias en una sola, creando un monopolio.
+                    de no agresión entre ellos. Formaron un cártel para no hacerse competencia, unieron sus compañías en una sola, creando un monopolio.
                     No competían con nadie y ellos establecian los precios de sus productos, como el petróleo.
                     Aunque lograron aumentar la producción y dar mas trabajos, esto no duro mucho, como buena costumbre kapitalista.
                 </div>
@@ -219,7 +219,7 @@ export default function Content() {
                     Esto significaba quitarles tierras a otros imperios. <br />
                     El imperialismo recurre a las guerras para proteger todo lo que ha robado. <br />
                     Y así se enfrentaron los imperios alemanes contra francia, usa, etc.
-                    Para hacer que la gente estuvieran dispuestos a tomar armas e ir a matar desconocidos y morir, el capital se inventó…
+                    Para hacer que la gente estuviera dispuesta a tomar armas e ir a matar desconocidos y morir, el capital se inventó…
                 </div>
                 <img className='patriotismo' src={patriotismo} data-aos="fade-up" data-aos-duration="2000" />
                 <div data-aos="fade-up">
@@ -228,7 +228,7 @@ export default function Content() {
                 </div>
                 <h3 data-aos="fade-up">La Revolución Rusa</h3>
                 <div data-aos="fade-up">
-                    En 1917 los proletariados, liderados por Lenin, establecieron en Rusia un sistema Socialista. Esta revolución hizo un eco en todo el mundo.
+                    En 1917 el proletariado, liderado por Lenin, establecieron en Rusia un sistema Socialista. Esta revolución hizo un eco en todo el mundo.
                     Mientras que la primera guerra terminaba, dejando 8 millones de obreros muertos, el proletariado de todo el mundo se daban cuenta que es
                     posible derrotar al capital. <br />
                     La simple idea del socialismo fue (y sigue siendo) considerada una amenaza para el kapitalismo.
@@ -242,13 +242,13 @@ export default function Content() {
                     Convence al sediento kapital de sus ideologías de acabar con el comunismo, hacer de Alemania una gran nación y poner al frente la raza aria.
                 </div>
                 <div data-aos="fade-up">
-                    <i>Oportunamente</i>, en 1933, se incendia el Reichstag (el equivalente al Capitolio en EE.UU.) y <i>casualmente</i> el grupo de policias de Hitler
-                    encuentrajusto afuera del fuego a un miembro del partido comunista, Marinus van der Lubbe. <br />
-                    Con este pretexto, Hitler persigue a todos los comunistas del pais, y ahora, sin una oposición, gana las elecciones, apoderandose de Alemania con el apoyo kapital.
+                    <i>Oportunamente</i>, en 1933, se incendió el Reichstag (el equivalente al Capitolio en EE.UU.) y <i>casualmente</i> el grupo de policías de Hitler
+                    encuentra, justo afuera del fuego, a un miembro del partido comunista, Marinus van der Lubbe. <br />
+                    Con este pretexto, Hitler persigue a todos los comunistas del país, y ahora, sin una oposición, gana las elecciones, apoderándose de Alemania con el apoyo kapital.
                 </div>
                 <h3 data-aos="fade-up">La Segunda Guerra Mundial</h3>
                 <div data-aos="fade-up">
-                    El capital alemán quería retomar y obtenter más territorio. Invadieron la URSS con plan de liquidarla en 15 dias. Afortunadamente el plan les salió al revés,
+                    El capital alemán quería retomar y obtener más territorio. Invadieron la URSS con plan de liquidarla en 15 días. Afortunadamente el plan les salió al revés,
                     y fueron los soviéticos quienes derrotaron al loquito Hitler. <br />
                     Con la presencia de los soviéticos en todos los países invadidos, como Polonia, Bulgaria, Rumania, Yugoslavia o Checoslovaquia, la URSS expandió
                     su socialismo.
@@ -257,20 +257,20 @@ export default function Content() {
                 <img className='expansioncom' src={expansioncom} data-aos="fade" data-aos-duration="2000" />
                 <div data-aos="fade-up">
                     Para el final de la guerra, de los 148 millones de kilómetros cuadrados de la tierra, 35 pasaron al socialismo, en menos de 30 años. <br />
-                    Un completo desastre para el capitalismo. Y al expansión del socialismo era debido a era mas evidente que el kapitalismo no funcionaba.
+                    Un completo desastre para el capitalismo. La expansión del socialismo era debido a que era muy evidente que el kapitalismo no funcionaba.
                 </div>
                 <h3 data-aos="fade-up">El Neocolonialismo - El Colinialismo Económico</h3>
                 <div data-aos="fade-up">
                     En esta nueva etapa, el kapitalismo ya no invade países (a menos que no sigas sus reglas). Ahora solamente los presiona económicamente,
                     baja precios de materias primas, exige pago de deudas, niega préstamos, cierra fronteras a exportaciones, etc., etc. <br />
-                    El kapitalismo se fue perfeccionado. Crearon una sociedad de consumo, gracias a que las empresas se han apoderado de
+                    El kapitalismo se perfeccionó. Crearon una sociedad de consumo, gracias a que las empresas se han apoderado de
                     los medios de comunicación. Y es en el contenido que muestran, donde imprimen sus ideales, sus objetivos, sus productos. Las transnacionales,
                     dueñas absolutas del comercio, son los verdaderos gobernantes del mundo.
                 </div>
                 <div data-aos="fade-up">
                     El socialismo, la opción que se tenía, desafortunadamente cayó en un bache, debido a la cantidad de problemas del stalinismo. Países que seguían
                     esta ideología, como Cuba o Venezuela fueron usados como ejemplos para demostrar lo inútil del socialismo. A pesar de que hacen todo lo
-                    económicante posible para frenar cualquier tipo de avance y mantenerlos como colonias.
+                    económicamente posible para frenar cualquier tipo de avance y mantenerlos como colonias.
                 </div>
             </div>
         </section >

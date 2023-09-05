@@ -3,6 +3,7 @@ section {
 }
 
 .Resumen {
+    width: 100vw;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -52,7 +53,7 @@ section {
 }
 
 .edadmedia {
-    width: 300px;
+    max-width: 300px;
     height: auto;
     position: absolute;
     right: 880px;
@@ -60,7 +61,7 @@ section {
 }
 
 .kapitalista {
-    width: 260px;
+    max-width: 260px;
     height: auto;
     position: absolute;
     left: 850px;
@@ -124,7 +125,6 @@ section {
     position: absolute;
     left: 420px;
     top: 345px;
-    /* border: 1px solid black; */
 }
 
 .aranas {
@@ -185,4 +185,379 @@ section {
     position: absolute;
     left: 850px;
     top: 460px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .edadmedia {
+        position: relative;
+        top: -10px;
+        left: 50px;
+        align-self: center;
+    }
+
+    .kapitalista {
+        position: relative;
+        top: 0;
+        left: 200px;
+    }
+
+    .carabelas {
+        position: relative;
+        top: 0px;
+        left: 100px;
+    }
+
+    .colon {
+        position: relative;
+        top: -10px;
+        left: 250px;
+    }
+
+    .tumba {
+        width: 250px;
+        position: relative;
+        top: -10px;
+        left: 250px;
+    }
+
+    .triangkap {
+        width: 400px;
+        top: 590px;
+    }
+
+    .sebusca {
+        display: none;
+    }
+
+    .comunaparis {
+        position: relative;
+        top: 0px;
+        left: 250px;
+    }
+
+    .africaL {
+        position: relative;
+        top: 0px;
+        left: 50px;
+    }
+
+    .africaR {
+        position: relative;
+        top: 0px;
+        left: 160px;
+    }
+
+    .expansioncom {
+        position: relative;
+        top: 0px;
+        left: 25%;
+    }
+
+    .zombie {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .mercader {
+        display: none;
+    }
+
+    .soldado {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Resumen {
+        font-size: 1rem;
+    }
+
+    .Cap1 div,
+    .Cap2 div,
+    .Cap3 div,
+    .Cap4 div,
+    .Cap5 div,
+    .Cap6 div,
+    .Cap7 div {
+        margin: 15px 0;
+        max-width: 700px;
+    }
+
+    .edadmedia {
+        width: 220px;
+        top: -10px;
+        left: 70px;
+        align-self: center;
+    }
+
+    .kapitalista {
+        width: 155px;
+        position: relative;
+        top: 0;
+        left: 200px;
+    }
+
+    .carabelas {
+        width: 250px;
+        top: 0px;
+        left: 60px;
+    }
+
+    .colon {
+        width: 130px;
+        top: 0;
+        left: 240px;
+    }
+
+    .comercio {
+        max-width: 650px;
+    }
+
+    .tumba {
+        width: 200px;
+        top: -10px;
+        left: 250px;
+    }
+
+    .divtriangkap {
+        display: block;
+        width: auto;
+    }
+
+    .triangkap {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .comunaparis {
+        width: 260px;
+        top: 0px;
+        left: 250px;
+    }
+
+    .africaL {
+        width: 200px;
+        top: 0px;
+        left: 80px;
+    }
+
+    .africaR {
+        width: 200px;
+        top: 0px;
+        left: 220px;
+    }
+
+    .aranas {
+        position: relative;
+        top: 13px;
+        width: 500px;
+    }
+
+    .patriotismo {
+        width: 550px;
+    }
+
+    .expansioncom {
+        width: 350px;
+        top: 0px;
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .Resumen {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .Cap1 div,
+    .Cap2 div,
+    .Cap3 div,
+    .Cap4 div,
+    .Cap5 div,
+    .Cap6 div,
+    .Cap7 div {
+        margin: 15px 0;
+        max-width: 700px;
+    }
+
+    .edadmedia {
+        top: 0px;
+        left: 80px;
+        max-width: 270px;
+    }
+
+    .kapitalista {
+        display: none;
+    }
+
+    .carabelas {
+        width: 260px;
+        top: 0px;
+        left: 50px;
+    }
+
+    .colon {
+        display: none;
+    }
+
+    .comercio {
+        max-width: 370px;
+    }
+
+    .tumba {
+        width: 200px;
+        top: -10px;
+        left: 100px;
+    }
+
+    .divtriangkap {
+        display: block;
+        width: auto;
+    }
+
+    .triangkap {
+        width: 380px;
+        top: 0px;
+        left: 0px;
+    }
+
+    .comunaparis {
+        width: 220px;
+        top: 0px;
+        left: 85px;
+    }
+
+    .africaL {
+        width: 170px;
+        top: 0px;
+        left: 5px;
+    }
+
+    .africaR {
+        width: 170px;
+        top: 0px;
+        left: 30px;
+    }
+
+    .aranas {
+        top: 13px;
+        width: 360px;
+    }
+
+    .patriotismo {
+        width: 360px;
+    }
+
+    .expansioncom {
+        width: 280px;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .Resumen {
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    .Cap1 div,
+    .Cap2 div,
+    .Cap3 div,
+    .Cap4 div,
+    .Cap5 div,
+    .Cap6 div,
+    .Cap7 div {
+        margin: 15px 0;
+        max-width: 700px;
+    }
+
+    .edadmedia {
+        width: 180px;
+        top: 0px;
+        left: 70px;
+        align-self: center;
+    }
+
+    .carabelas {
+        width: 200px;
+        top: 0px;
+        left: 60px;
+    }
+
+    .colon {
+        display: none;
+    }
+
+    .comercio {
+        max-width: 300px;
+    }
+
+    .tumba {
+        width: 150px;
+        top: -8px;
+        left: 85px;
+    }
+
+    .divtriangkap {
+        display: block;
+        width: auto;
+    }
+
+    .triangkap {
+        width: 310px;
+        top: 0px;
+        left: 0px;
+    }
+
+    .comunaparis {
+        width: 220px;
+        top: 0px;
+        left: 55px;
+    }
+
+    .africaL {
+        width: 190px;
+        top: 0px;
+        left: 66px;
+    }
+
+    .africaR {
+        width: 190px;
+        top: 0px;
+        left: 66px;
+    }
+
+    .aranas {
+        top: 13px;
+        width: 310px;
+    }
+
+    .patriotismo {
+        width: 310px;
+    }
+
+    .expansioncom {
+        width: 250px;
+        top: 0px;
+        left: 40px;
+    }
 }

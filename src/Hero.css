@@ -2,6 +2,7 @@ header {
     cursor: url('./assets/cursor3W.png'), auto;
     background-color: #333;
     color: #fff;
+    width: 100vw;
 }
 
 .left-options a:hover {
@@ -13,7 +14,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 24px 32px;
-
     /* Adjust padding as needed */
 }
 
@@ -32,6 +32,8 @@ nav {
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
 }
 
 /* Style for the logo */
@@ -61,4 +63,69 @@ nav {
 .hero h1,
 h2 {
     font-family: 'Arvo', serif;
+}
+
+@media only screen and (max-width: 1053px) {
+    .hero h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .nombre {
+        font-size: 1.3rem;
+    }
+
+    .left-options a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .nombre {
+        font-size: 1rem;
+    }
+
+    .left-options a {
+        font-size: 0.8rem;
+    }
+
+    .left-options li {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .left-options a {
+        font-size: 0.8rem;
+    }
+
+    .nombre {
+        font-size: 0.9rem;
+        margin-left: 30px;
+    }
+
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .left-options li {
+        display: block;
+    }
 }

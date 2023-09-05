@@ -1,5 +1,5 @@
 footer {
-    height: 92vh;
+    height: auto;
     background-color: #333;
     color: #fff;
     padding: 40px;
@@ -35,11 +35,72 @@ footer {
 
 .opinion {
     max-width: 950px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .opinion div {
     font-size: 1.12rem;
     text-align: justify;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1053px) {
+    .opinion h2 {
+        font-size: 2rem;
+    }
+
+    .opinion div {
+        font-size: 1rem;
+    }
+
+    .referencias h2 {
+        font-size: 2rem;
+    }
+
+    .referencias div {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .opinion h2 {
+        font-size: 1.9rem;
+    }
+
+    .opinion div {
+        font-size: 0.9rem;
+    }
+
+    .referencias h2 {
+        font-size: 1.9rem;
+    }
+
+    .referencias div {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .opinion h2 {
+        font-size: 1.7rem;
+    }
+
+    .opinion div {
+        font-size: 0.8rem;
+    }
+
+    .referencias h2 {
+        font-size: 1.7rem;
+    }
+
+    .referencias div {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .referencias {
+        margin-bottom: 0;
+    }
 }
